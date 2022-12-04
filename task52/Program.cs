@@ -38,6 +38,7 @@ void PrintMatrix(int[,] array)
 int[,] matrix = GetMatrix(10, 10);
 PrintMatrix(matrix);
 System.Console.WriteLine();
+
 for (int j = 0; j < matrix.GetLength(1); j++)
 {
     double sum = 0;
